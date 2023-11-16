@@ -19,8 +19,6 @@ import org.springframework.context.annotation.Configuration;
                 )
         ),
         servers = {
-                @Server(url = "${open_api.servers.local.url}",
-                        description = "${open_api.servers.local.description}"),
                 @Server(url = "${open_api.servers.production.url}",
                         description = "${open_api.servers.production.description}") }
 )
