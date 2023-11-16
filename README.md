@@ -1,5 +1,11 @@
+# Despliegue en Railway 🚂
+ Este proyecto está desplegado utilizando [Railway](https://railway.app/), una plataforma de desarrollo y alojamiento en la nube. Railway simplifica el proceso de implementación, permitiéndote centrarte en la creación de tu aplicación sin preocuparte por la infraestructura subyacente.
 
-# Sistema para administrar productos en el inventario.
+## Características del Despliegue
+- **Base de Datos MySQL:** La base de datos está desplegada y funcionando gracias a Railway, lo que garantiza un almacenamiento eficiente y seguro de los datos.
+- **Spring Boot**
+
+# Sistema para administrar productos en el inventario (PRODUCCIÓN).
 
 "CRUD documentado en Swagger, con validaciones,
 excepciones, exportación a PDF y Excel, y gestión
@@ -11,9 +17,9 @@ de inventario."
 
 - **Spring Boot: 2.7.15**.
 
-- **Base de datos MySQL**.
+- **Base de datos MySQL (PRODUCCION)**.
 
-- **Swagger: http://localhost:8080/swagger-ui/index.html**
+- **Swagger: https://test-avatar-api.up.railway.app/swagger-ui/index.html**
 
 
 ## Funciones
@@ -51,7 +57,7 @@ En la imagen de arriba, se muestra la interfaz de Workbench de la base de datos 
 
 ![Documentación de Endpoints con Swagger](src/main/resources/static/img_8.png)
 
-La imagen anterior muestra la documentación de todos los endpoints de la API, que se encuentra en `http://localhost:8080/swagger-ui/index.html`.
+La imagen anterior muestra la documentación de todos los endpoints de la API, que se encuentra en `https://test-avatar-api.up.railway.app/swagger-ui/index.html`.
 
 
 
